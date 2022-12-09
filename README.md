@@ -1,0 +1,2 @@
+# Langs_NaniNovel
+ 

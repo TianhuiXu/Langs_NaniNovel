@@ -1,0 +1,9 @@
+@back bgmarket
+Dama.Default: 来来来，刚到的柚子，小伙子/小姑娘，要不要来个？Hey, come! Newly arrived pomelo, little girl, do you want one?
+
+@choice "一斤多少钱啊？ How much is one '斤'?" goto:.Labelname
+@choice "一斤柚子多少钱啊？ How much is one '斤' of pomelo?" goto:.Labelname
+@choice "好呀 Sure" goto:AnotherScript
+@choice "来个 I'll get one" goto:AnotherScript.LabelName
+@choice "要 I want" goto:AnotherScript.LabelName
+@stop
